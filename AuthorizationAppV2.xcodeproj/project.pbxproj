@@ -11,6 +11,12 @@
 		23EAD8ED281896BE00D3EA41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD8EC281896BE00D3EA41 /* ContentView.swift */; };
 		23EAD8EF281896C100D3EA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EAD8EE281896C100D3EA41 /* Assets.xcassets */; };
 		23EAD8F2281896C100D3EA41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EAD8F1281896C100D3EA41 /* Preview Assets.xcassets */; };
+		23EAD8FB2818988000D3EA41 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD8FA2818988000D3EA41 /* LoginView.swift */; };
+		23EAD8FD28189B9900D3EA41 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD8FC28189B9900D3EA41 /* UserManager.swift */; };
+		23EAD8FF2818A0AA00D3EA41 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD8FE2818A0AA00D3EA41 /* TimeCounter.swift */; };
+		23EAD9012819C85B00D3EA41 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD9002819C85B00D3EA41 /* InitialView.swift */; };
+		23EAD923281AF58F00D3EA41 /* CheckUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD922281AF58F00D3EA41 /* CheckUserView.swift */; };
+		23EAD927281C510800D3EA41 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD926281C510700D3EA41 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		23EAD8EC281896BE00D3EA41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23EAD8EE281896C100D3EA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EAD8F1281896C100D3EA41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23EAD8FA2818988000D3EA41 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		23EAD8FC28189B9900D3EA41 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		23EAD8FE2818A0AA00D3EA41 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		23EAD9002819C85B00D3EA41 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		23EAD922281AF58F00D3EA41 /* CheckUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserView.swift; sourceTree = "<group>"; };
+		23EAD926281C510700D3EA41 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				23EAD8EA281896BE00D3EA41 /* AuthorizationAppV2App.swift */,
 				23EAD8EC281896BE00D3EA41 /* ContentView.swift */,
+				23EAD926281C510700D3EA41 /* ButtonView.swift */,
+				23EAD8FA2818988000D3EA41 /* LoginView.swift */,
+				23EAD922281AF58F00D3EA41 /* CheckUserView.swift */,
+				23EAD9002819C85B00D3EA41 /* InitialView.swift */,
+				23EAD8FC28189B9900D3EA41 /* UserManager.swift */,
+				23EAD8FE2818A0AA00D3EA41 /* TimeCounter.swift */,
 				23EAD8EE281896C100D3EA41 /* Assets.xcassets */,
 				23EAD8F0281896C100D3EA41 /* Preview Content */,
 			);
@@ -139,6 +157,12 @@
 			files = (
 				23EAD8ED281896BE00D3EA41 /* ContentView.swift in Sources */,
 				23EAD8EB281896BE00D3EA41 /* AuthorizationAppV2App.swift in Sources */,
+				23EAD923281AF58F00D3EA41 /* CheckUserView.swift in Sources */,
+				23EAD8FB2818988000D3EA41 /* LoginView.swift in Sources */,
+				23EAD9012819C85B00D3EA41 /* InitialView.swift in Sources */,
+				23EAD8FF2818A0AA00D3EA41 /* TimeCounter.swift in Sources */,
+				23EAD8FD28189B9900D3EA41 /* UserManager.swift in Sources */,
+				23EAD927281C510800D3EA41 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
