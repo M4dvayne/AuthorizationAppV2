@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct LoginView: View {
+
     let minSymbolQty = 3
-    @State private var userName = ""
+
+    @AppStorage("userName") private var userName = ""
     @EnvironmentObject private var user: UserManager
     
+
     var body: some View {
         VStack {
             HStack {
@@ -24,9 +27,18 @@ struct LoginView: View {
             }
             
             Button(action: registerUser) {
-                HStack{
-                    Image(systemName: "checkmark.circle")
-                    Text("OK")
+                if userName.count >= 3 {
+                    HStack{
+                        Image(systemName: "checkmark.circle")
+                        Text("OK")
+                    }
+                } else {
+                    HStack{
+                        Image(systemName: "checkmark.circle")
+                            .disabled(true)
+                        Text("OK")
+                            .disabled(true)
+                    }
                 }
             }
         }
@@ -37,8 +49,9 @@ struct LoginView: View {
             user.name = userName
             user.isRegistered.toggle()
         }
-    }
+    } 
 }
+
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {

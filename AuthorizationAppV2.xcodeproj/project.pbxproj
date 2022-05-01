@@ -17,6 +17,7 @@
 		23EAD9012819C85B00D3EA41 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD9002819C85B00D3EA41 /* InitialView.swift */; };
 		23EAD923281AF58F00D3EA41 /* CheckUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD922281AF58F00D3EA41 /* CheckUserView.swift */; };
 		23EAD927281C510800D3EA41 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD926281C510700D3EA41 /* ButtonView.swift */; };
+		23EAD929281F004800D3EA41 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD928281F004800D3EA41 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		23EAD9002819C85B00D3EA41 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		23EAD922281AF58F00D3EA41 /* CheckUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserView.swift; sourceTree = "<group>"; };
 		23EAD926281C510700D3EA41 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		23EAD928281F004800D3EA41 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				23EAD8EC281896BE00D3EA41 /* ContentView.swift */,
 				23EAD926281C510700D3EA41 /* ButtonView.swift */,
 				23EAD8FA2818988000D3EA41 /* LoginView.swift */,
+				23EAD928281F004800D3EA41 /* DataManager.swift */,
 				23EAD922281AF58F00D3EA41 /* CheckUserView.swift */,
 				23EAD9002819C85B00D3EA41 /* InitialView.swift */,
 				23EAD8FC28189B9900D3EA41 /* UserManager.swift */,
@@ -162,6 +165,7 @@
 				23EAD9012819C85B00D3EA41 /* InitialView.swift in Sources */,
 				23EAD8FF2818A0AA00D3EA41 /* TimeCounter.swift in Sources */,
 				23EAD8FD28189B9900D3EA41 /* UserManager.swift in Sources */,
+				23EAD929281F004800D3EA41 /* DataManager.swift in Sources */,
 				23EAD927281C510800D3EA41 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

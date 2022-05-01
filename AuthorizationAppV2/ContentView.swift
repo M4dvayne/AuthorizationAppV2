@@ -13,7 +13,6 @@ struct ContentView: View {
     @EnvironmentObject private var userManager: UserManager
     
     var body: some View {
-        
         VStack {
             Text("Hi,\(userManager.name)")
                 .padding()

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CheckUserView: View {
-    
+
     let minSymbolQty: Int
     @Binding var userName: String
     
@@ -21,8 +21,6 @@ struct CheckUserView: View {
                 .foregroundColor(.green)
         }
     }
-    
-    
 }
 
 struct CheckUserView_Previews: PreviewProvider {
